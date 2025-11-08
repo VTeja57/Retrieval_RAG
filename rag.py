@@ -92,7 +92,7 @@ class RAG:
     
         
 if __name__=='__main__':
-    obj=RAG(r"C:\Users\chait\Downloads\DATA SCIENCE & AI\DATA FILES\datasets\GenAI.txt")
+    obj=RAG()
     load=obj.load()
     split=obj.splitting()
     mod=obj.models()
